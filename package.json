@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -8,11 +8,12 @@
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
-    "start": "tsdx watch",
+    "start": "tsdx watch --target node",
     "build": "tsdx build",
+    "dev": "tsdx build && node ./dist/index.js",
     "test": "tsdx test",
     "lint": "tsdx lint --fix",
     "prepare": "tsdx build",
@@ -51,5 +52,9 @@
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.9",
+    "express": "^4.17.1"
   }
 }
