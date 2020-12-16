@@ -23,9 +23,10 @@ console.log(app)
 
 export default app
 
-// export const sum = (a: number, b: number) => {
-//   if ("development" === process.env.NODE_ENV) {
-//     console.log("boop")
-//   }
-//   return a + b
-// }
+// just here to have a working test
+export const sum = (a: number, b: number) => {
+  if ("development" === process.env.NODE_ENV) {
+    console.log("boop")
+  }
+  return a + b
+}
