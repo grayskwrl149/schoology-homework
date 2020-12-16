@@ -18,15 +18,3 @@ app.get("/", (req: any, res: any) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
-
-console.log(app)
-
-export default app
-
-// just here to have a working test
-export const sum = (a: number, b: number) => {
-  if ("development" === process.env.NODE_ENV) {
-    console.log("boop")
-  }
-  return a + b
-}
