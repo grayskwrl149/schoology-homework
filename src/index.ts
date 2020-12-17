@@ -3,8 +3,8 @@ import swaggerUi from "swagger-ui-express"
 import openApiDocumentation from "./openApiDocumentation"
 
 // example of how to use environment variables
-import envs from "./config"
-console.log(envs.exampleVar)
+import { exampleVar } from "./config"
+console.log(exampleVar)
 
 const app = express()
 const port = 3000

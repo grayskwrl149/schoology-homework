@@ -1,6 +1,19 @@
+# API Starter
+
+This is the starter for all my future APIs. It consists of the following:
+
+- I created this using [TSDX](https://tsdx.io).
+- Then I added [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express) for docs.
+- Then I added [node-pg-migrate](https://github.com/salsita/node-pg-migrate) for database table creation.
+- Then I added [dotenv](https://www.npmjs.com/package/dotenv) for environment variables.
+
+Below this line are the default starter docs for TSDX.
+
+---
+
 # TSDX User Guide
 
-Congrats! You just saved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
+Congrats! You just s1aved yourself hours of work by bootstrapping this project with TSDX. Let’s get you oriented with what’s here and how to use it.
 
 > This TSDX setup is meant for developing libraries (not apps!) that can be published to NPM. If you’re looking to build a Node app, you could use `ts-node-dev`, plain `ts-node`, or simple `tsc`.
 
@@ -72,11 +85,11 @@ Please see the main `tsdx` [optimizations docs](https://github.com/palmerhq/tsdx
 
 ```js
 // ./types/index.d.ts
-declare var __DEV__: boolean;
+declare var __DEV__: boolean
 
 // inside your code...
 if (__DEV__) {
-  console.log('foo');
+  console.log("foo")
 }
 ```
 
