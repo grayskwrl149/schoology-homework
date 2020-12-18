@@ -7,6 +7,8 @@ This is the starter for all my future APIs. It consists of the following:
 - Then I added [node-pg-migrate](https://github.com/salsita/node-pg-migrate) for database table creation.
 - Then I added [dotenv](https://www.npmjs.com/package/dotenv) for environment variables.
 
+Here's an [Unofficial Typescript Style Guide](https://basarat.gitbook.io/typescript/styleguide)
+
 Below this line are the default starter docs for TSDX.
 
 ---
