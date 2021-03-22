@@ -1,11 +1,7 @@
-# API Starter
-
-This is the starter for all my future APIs. It consists of the following:
+# schoology-homework
 
 - I created this using [TSDX](https://tsdx.io).
 - Then I added [swagger-ui-express](https://www.npmjs.com/package/swagger-ui-express) for docs.
-- Then I added [node-pg-migrate](https://github.com/salsita/node-pg-migrate) for database table creation.
-- Then I added [dotenv](https://www.npmjs.com/package/dotenv) for environment variables.
 
 Here's an [Unofficial Typescript Style Guide](https://basarat.gitbook.io/typescript/styleguide)
 
