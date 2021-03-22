@@ -30,7 +30,7 @@ const openApiDocumentation = {
                     },
                   },
                   example: {
-                    name: "api-starter",
+                    name: "schoology-homework",
                     version: "1.0.0",
                   },
                 },
